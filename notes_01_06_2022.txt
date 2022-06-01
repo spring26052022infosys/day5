@@ -315,7 +315,7 @@ import org.springframework.stereotype.Repository;
 import com.infosys.demo.entity.Student;
 
 @Repository
-public interface StudentRepository extends CrudRepository<Student, Integer> {
+public interface StudentRepository extends CrudRepository<Student, Integer>//It takes the entity class and the data type of its identifier as type arguments. {
 }
 
 -----------------------------------------------------------------------------------------------------------
